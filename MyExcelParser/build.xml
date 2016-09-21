@@ -14,7 +14,7 @@
 	<target name="create_run_jar" depends="compile, default, runTests, pmd">
 		<jar destfile="${target.dir}/ExcelParser.jar">
 			<manifest>
-				<attribute name="Main-Class" value="com.kohler.excel.main.ExcelParserMain" />
+				<attribute name="Main-Class" value="com.excel.main.ExcelParserMain" />
 				<attribute name="Class-Path" value="${manifest_cp_mod}" />
 			</manifest>
 			<fileset dir="${build.dir}" includes="**/*" excludes="**/dist/**,**/test/**,**/bin/**,**/build/**,**/Resources/**,**/Documentation/**" />
