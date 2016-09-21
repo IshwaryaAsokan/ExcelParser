@@ -18,7 +18,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import com.kohler.dto.PIMModel;
+import com.dto.PIMModel;
 
 public class ExcelParser {
 	static Logger logger = Logger.getLogger(ExcelParser.class.getName());
